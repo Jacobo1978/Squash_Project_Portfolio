@@ -2,7 +2,7 @@ import './contact.css'
 
 const Contact = () => {
   return (
-    <section id="contact"><h2>Contacts</h2></section>
+    <section id="contact"><h2>Contact</h2></section>
   )
 }
 
