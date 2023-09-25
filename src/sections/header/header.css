@@ -17,7 +17,7 @@ header {
 .header__profile {
     width: 18rem;
     height: 22rem;
-    border-radius: 0rem 0rem 2rem 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
     overflow: hidden;
     margin-bottom: 1.5rem;
 }
@@ -67,10 +67,13 @@ header {
         margin-top: 0;
         height: 100vh;
     }
+    .btn.primary {
+            font-size: 0.9rem;
+        }
 }
 
 
-/* MEDIA QUERIES (tablets) */
+/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;
@@ -89,5 +92,8 @@ header {
 
     .header__socials {
         display: none;
+    }
+    .btn.primary {
+        font-size: 0.9rem;
     }
 }

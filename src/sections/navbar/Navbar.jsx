@@ -1,6 +1,6 @@
 import './navbar.css'
-import data from './data'
-//import {IoIosColorPalette} from 'react-icons/io'
+import data from './data.js'
+import {IoMdColorFill} from 'react-icons/io'
 import Profile_Pic from '../../assets/Profile_Pic.JPG'
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
             data.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
           }
         </ul>
-        <button id='theme__icon'> JR </button>
+        <button id='theme__icon'><IoMdColorFill/> </button>
       </div>
     </nav>
   )
