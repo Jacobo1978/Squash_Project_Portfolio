@@ -1,13 +1,12 @@
-import Navbar from './sections/navbar/Navbar';
+import Portfolio from './sections/portfolio/Portfolio';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
-import Skills from './sections/skills/Skills';
-import Portfolio from './sections/portfolio/Portfolio';
-import Testimonials from './sections/testimonials/Testimonials';
-import Education from './sections/education/Education';
+import Navbar from './sections/navbar/Navbar';
 import Contact from './sections/contact/Contact';
+import Skills from './sections/skills/Skills';
+import Education from './sections/education/Education';
+import Testimonials from './sections/testimonials/Testimonials';
 import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
 
 const App = () => {
   return (
@@ -21,7 +20,6 @@ const App = () => {
       <Education/>
       <Contact/>
       <Footer/>
-      <FloatingNav/>
     </main>
   )
 }

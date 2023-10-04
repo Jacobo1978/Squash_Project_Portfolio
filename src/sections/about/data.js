@@ -4,11 +4,9 @@ import {BiHappyHeartEyes} from 'react-icons/bi'
 
 
 const data = [
-    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '2+ Years Working'},
-    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '15+ Completed'},
-    {id: 3, icon: <BiHappyHeartEyes/>, title: 'Clients', desc: '100+ happy clients'}
+    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '2+ Years Working with ReactJS, SQL'},
+    {id: 2, icon: <TbBooks/>, title: 'Scrum, Project Manager, Six Sigma', desc: '15+ Projects Completed'},
+    {id: 3, icon: <BiHappyHeartEyes/>, title: 'Customers', desc: '100+ happy customers'}
     ]
-
-
 
     export default data;

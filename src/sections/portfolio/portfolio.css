@@ -1,3 +1,11 @@
+.portfolio__projects {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    align-items: start;
+}
+
 .portfolio__categories {
     display: flex;
     justify-content: center;
@@ -15,13 +23,7 @@
 }
 
 
-.portfolio__projects {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    align-items: start;
-}
+
 
 .card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;

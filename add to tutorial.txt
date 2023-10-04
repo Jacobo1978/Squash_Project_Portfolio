@@ -1,0 +1,10 @@
+
+
+In Testimonials add on Terminal:
+
+npm install swiper -- save
+
+then follow the instructions on terminal
+
+
+ERROR OCURRED CHECAR TU EMAIL

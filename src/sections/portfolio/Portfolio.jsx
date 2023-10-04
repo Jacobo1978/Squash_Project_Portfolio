@@ -1,8 +1,8 @@
 import './portfolio.css'
-import Projects from './Projects'
-import ProjectsCategories from './ProjectsCategories'
 import data from './data'
 import { useState } from 'react'
+import Projects from './Projects'
+import ProjectsCategories from './ProjectsCategories'
 
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
@@ -20,7 +20,6 @@ const Portfolio = () => {
     setProjects(filterProjects);
   }
   
-
   return (
     <section id="portfolio">
       <h2>Recent Projects</h2>

@@ -1,6 +1,7 @@
+import './header.css'
 import Profile_Pic from '../../assets/Profile_Pic.JPG'
 import data from './data'
-import './header.css'
+
 
 const Header = () => {
   return (
@@ -9,13 +10,13 @@ const Header = () => {
         <div className="header__profile">
           <img src={Profile_Pic} alt="Header Portait" />
         </div>
-        <h3>Jacob Ruiz</h3>
+        <h2>Jacob Ruiz</h2>
         <p>
-        Self-disciplined, proactive, problem solver, accountable, statistics oriented. Scrum Master, Project Manager, Product Manager.
+        Self-disciplined, proactive, problem solver, accountable, statistics oriented. Scrum Master, Project Manager, Product Manager, ReactJS, NodeJS, JavaScript, Python, AWS Amazon Web Services.
         </p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Contact me</a>
-          <a href="#portfolio" className='btn light'>Portfolio</a>
+          <a href="#portfolio" className='btn primary'>Portfolio</a>
         </div>
         <div className="header__socials">
           {

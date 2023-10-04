@@ -1,15 +1,3 @@
-.skill__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem 4rem;
-}
-
-.card.skill{
-    display:flex;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
 .skill__icon {
     background: var(--color-primary);
     padding: 0.6rem;
@@ -20,12 +8,24 @@
 }
 
 .skill:hover .skill__icon {
-    background:var(--color-light);
-    color:var(--color-primary);
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+
+.skill__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+}
+
+.card.skill{
+    display:flex;
+    align-items: flex-start;
+    gap: 0rem;
 }
 
 .skill h4{
-    margin-bottom:0.7rem;
+    margin-bottom:0.5rem;
 }
 
 /* MEDIA QUERIES (tablets) */
